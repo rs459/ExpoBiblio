@@ -6,37 +6,39 @@ expoBiblio est une application expo, qui reprend l'api symfony biblio avec une b
 
 il y a deux repertoires, un pour le back symfony, et un autre pour l'application Expo, chaque repertoire est un repository Git.
 
-This repository serves as a parent repository for two submodules: `expoBiblio-frontend` and `expoBiblio-backend`.
+Ce dépôt sert de dépôt parent pour deux sous-modules : `appExpoBiblio` et `bibliotheque-projet-backend`.
 
-## Getting Started
+## Démarrage
 
-To set up and run the project, follow these steps:
+Pour configurer et lancer le projet, suivez ces étapes :
 
-1. **Clone the repository:**
+1. **Cloner le dépôt :**
 
     ```bash
-    git clone --recurse-submodules https://github.com/your-username/expoBiblio.git
+    git clone --recurse-submodules https://github.com/rs459/expoBiblio.git
     cd expoBiblio
     ```
 
-    If you cloned without `--recurse-submodules`, you can initialize them afterwards:
+    Si vous avez cloné sans `--recurse-submodules`, vous pouvez les initialiser après coup :
 
     ```bash
     git submodule update --init --recursive
     ```
 
-2. **Navigate to the `expoBiblio-backend` directory and follow its instructions:**
+2. **Naviguez vers le répertoire `bibliotheque-projet-backend` et suivez ses instructions :**
 
     ```bash
-    cd expoBiblio-backend
-    # Refer to the README.md in expoBiblio-backend for specific setup instructions (e.g., installing dependencies, running the server).
+    cd bibliotheque-projet-backend
+    # Référez-vous au fichier README.md dans bibliotheque-projet-backend pour les instructions de configuration spécifiques (par exemple, installation des dépendances, démarrage du serveur).
     ```
 
-3. **Navigate to the `expoBiblio-frontend` directory and follow its instructions:**
+    **Attention le back-end étant utilisé pour plusieurs projet, il a une branche spécifique nommée appExpoBiblio**
+
+3. **Naviguez vers le répertoire `appExpoBiblio` et suivez ses instructions :**
 
     ```bash
-    cd ../expoBiblio-frontend
-    # Refer to the README.md in expoBiblio-frontend for specific setup instructions (e.g., installing dependencies, running the development server).
+    cd ../appExpoBiblio
+    # Référez-vous au fichier README.md dans appExpoBiblio pour les instructions de configuration spécifiques (par exemple, installation des dépendances, démarrage du serveur de développement).
     ```
 
-By following these steps, you will have both the backend and frontend components of `expoBiblio` set up and ready to run.
+En suivant ces étapes, vous aurez les composants backend et frontend d'expoBiblio configurés et prêts à être exécutés.
