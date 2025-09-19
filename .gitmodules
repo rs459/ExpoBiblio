@@ -1,0 +1,6 @@
+[submodule "appExpoBiblio"]
+	path = appExpoBiblio
+	url = git@github.com:rs459/appExpoBiblio.git
+[submodule "bibliotheque-projet-backend"]
+	path = bibliotheque-projet-backend
+	url = https://github.com/rs459/bibliotheque-projet-backend.git
