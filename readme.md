@@ -32,7 +32,7 @@ Pour configurer et lancer le projet, suivez ces étapes :
     # Référez-vous au fichier README.md dans bibliotheque-projet-backend pour les instructions de configuration spécifiques (par exemple, installation des dépendances, démarrage du serveur).
     ```
 
-    **Attention le back-end étant utilisé pour plusieurs projet, il a une branche spécifique nommée appExpoBiblio**
+    **Attention le back-end étant utilisé pour plusieurs projets, il a une branche spécifique nommée appExpoBiblio**
 
 3. **Naviguez vers le répertoire `appExpoBiblio` et suivez ses instructions :**
 
